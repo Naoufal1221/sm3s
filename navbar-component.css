@@ -114,18 +114,19 @@
     transition: all 0.3s ease-out;
     position: relative;
     z-index: 4;
+    margin-right: 2rem;
 }
 .btn-line{
     width: 30px;
     height: 4px;
-    background: #C70039;
+    background: #133657;
 }
 
 .close{
     transform: rotate(180deg);
 }
 .close .btn-line:nth-child(1){
-    transform: rotate(45deg) translate(8px,5px);
+    transform: rotate(45deg) translate(8px,5px) !important;
     background: #133657;
 }
 
@@ -135,7 +136,7 @@
 }
 
 .close .btn-line:nth-child(3){
-    transform: rotate(-45deg) translate(10px,-6px);
+    transform: rotate(-45deg) translate(10px,-6px) !important;
     background: #133657;
 }
 
