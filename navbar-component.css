@@ -266,4 +266,8 @@ transition: all 0.7s ease-out;
     .menu{
         display: block;
     }
+
+    .menu .list-items{
+        margin-top: 5rem;
+    }
 }
