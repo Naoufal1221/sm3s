@@ -1,0 +1,135 @@
+.current-link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background: #e3e3e3;
+    padding: 0.5rem 0;
+}
+.current-link a{
+    margin-left: 13rem;
+    text-decoration: none;
+    color: #EE3C3C;
+    transition: color 0.3s ease;
+}
+
+.current-link a:hover{
+    color: #133657;
+}
+
+.current-link span{
+    font-family: 'Yantramanav', sans-serif;
+    margin: 0 0.2rem;
+}
+
+.container{
+    width: 80%;
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.container .left-container{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.container .left-container .info-form{
+    display: flex;
+    margin: 1.5rem 0;
+    align-items: center;
+}
+
+.container .left-container .info-form i {
+    margin-right: 2rem;
+    font-size: 24px;
+    border-radius: 50%;
+    background: #EE3C3C;
+    color: #e3e3e3;
+    /* align-self: ; */
+    padding: 1rem;
+    transition: background 0.3s ease;
+}
+
+.container .left-container .info-form i:hover{
+    background: #133657;
+}
+
+.container .right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.container .right-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container .right-container form input,
+.container .right-container form textarea,
+.container .right-container form select{
+    width: 80%;
+    padding: 1rem;
+    margin: 0.7rem 0;
+    border-radius: 10px;
+    border: none;
+    background: #EAF2FB;
+}
+option{
+    background: #EAF2FB;
+    padding: 1rem;
+    font-weight: bold;
+    font-family: 'Yantramanav', sans-serif;
+
+}
+.container .right-container form input:focus,
+.container .right-container form textarea:focus,
+.container .right-container form select:focus{
+    outline: none;
+}
+
+.container .right-container form .button-form button{
+    background: #EE3C3C;
+    border: none;
+    color: #EAF2FB;
+    float: right !important;
+    align-self: flex-end;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.container .right-container form .button-form button:hover{
+    background: #133657;
+}
+
+@media(max-width :1024px)
+{
+    .current-link a{
+        margin-left: 5rem;
+    }
+    .container{
+        width: 100%;
+    }
+}
+
+@media(max-width : 768px)
+{
+    .current-link a{
+        margin-left: 1rem;
+    }
+}
+
+@media(max-width : 500px)
+{
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
