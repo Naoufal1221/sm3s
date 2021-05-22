@@ -7,15 +7,19 @@
     margin: 0;
     padding: 0;
 }
-.showcase{
+
+/* ======================================================= ********** =====================================================================*/
+/* ======================================================= Home Style =====================================================================*/
+/* ======================================================= ********** =====================================================================*/
+.homeShowcase{
     background: #333;
     color: #fff;
     position: relative;
     width: 100%;
     height: 85vh;
-   
 }
-.showcase::before{
+
+.homeShowcase::before{
     content: '';
     background: url(smss3.jpg) no-repeat center center/cover;
     position: absolute;
@@ -27,14 +31,14 @@
     z-index: 2;
 }
 
-.showcase .showcase-content{
+.homeShowcase-content{
     width: 100%;
     height: 40vh;
     position: relative;
     z-index: 2;
 }
 
-.titles{
+.homeTitiles{
     width: 70%;
     height: 100%;
     margin: 0 auto;
@@ -45,19 +49,19 @@
     font-family: 'Lato', sans-serif;
 }
 
-.titles h1{
+.homeTitles h1{
     font-size: 3rem ;
     font-weight: 700;
     margin-bottom: 2rem;
 }
 
-.titles h4{
+.homeTitles h4 {
     color: #EE3C3C;
     font-size: 22px;
     margin-bottom: 1rem;
 }
 
-.btn{
+.homeBtn {
     text-decoration: none;
     color: #fff;
     font-family: 'Lato', sans-serif;
@@ -70,12 +74,12 @@
     transition: background 0.4s ease;
 }
 
-.btn:hover{
+.homeBtn:hover {
     background: #f4f4f4;
     color: #EE3C3C;
 }
 
-.boxes{
+.homeBoxes{
     width: 70%;
     margin: 12rem auto 20rem auto;
     display: flex;
@@ -84,14 +88,14 @@
     text-align: center;
 }
 
-.box{
+.homeBox {
     background: #f4f4f4;
     color: #333;
     padding: 6rem;
     transition: background 0.3s ease;
 }
 
-.box i{
+.homeBox i {
     font-size: 30px;
     background: #133657;
     padding: 1rem;
@@ -100,7 +104,7 @@
     color: #EE3C3C;
 }
 
-.box h3{
+.homeBox h3 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
 }
@@ -114,39 +118,38 @@
     color: #f4f4f4;
 }
 
-.box span{
+.homeBox span {
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 1.6;
 }
 
-.box:hover{
+.homeBox:hover {
     background: #133657;
     color: #fff;
 }
 
-.company{
+.homeCompany {
     width: 70%;
     margin: 28rem auto 5rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* align-items: center; */
 }
-.company .img-owner{
+
+.homeImg-owner {
     width: 50%;
     height: 100%;
     border-radius: 10px;
-    /* height: 500px; */
 }
 
-.company .info-owner{
+.homeInfo-owner {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0 0.7rem 1rem 2rem;
 }
 
-.info-owner h4{
+.homeInfo-owner h4 {
     margin: 3rem 0 1rem 0;
     font-family: 'Lato', sans-serif;
 }
@@ -155,44 +158,46 @@
     color: #EE3C3C;
 }
 
-.info-owner h2{
+
+.homeInfo-owner h2{
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     margin-bottom: 2rem;
     font-weight: bolder;
 }
 
-.info-owner .info-paragraph{
+ .homeInfo-paragraph{
     font-family: 'Yantramanav', sans-serif;
     padding-right: 7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.info-btn{
+.homeInfo-btn{
     text-decoration: none;
     color: #fff;
     background: #EE3C3C;
-    padding: 0.7rem;
-    /* border-radius: 20px; */
+    padding: 1rem;
+    border-radius: 20px;
     transition: background 0.3s ease-in;
 }
 
-.info-btn:hover{
+.homeInfo-btn:hover{
     background: #133657;
 }
 
-.info-btn span{
-    font-size: 16px;
+.homeInfo-btn span{
+    font-size: 18px;
     font-family: 'Yantramanav', sans-serif;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
-.goals{
+
+.homeGoals{
     background: #133657;
     color: #fff;
     padding: 5rem 0;
 }
-.top-goals{
+.homeTop-goals{
     width: 80%;
     margin: 0 auto 2rem auto;
     display: grid;
@@ -204,31 +209,31 @@
     border-bottom: 1px #f4f4f4 solid;
 }
 
-.top-goals .missions{
+.homeMissions{
     padding: 2rem;
     font-family: 'Yantramanav', sans-serif;
 }
-.top-goals .missions h5{
+.homeMissions h5{
     font-size: 20px;
     margin-bottom: 0.7rem;
     color: #EE3C3C;
     cursor: pointer;
     transition: color 0.3s ease;
 }
-.top-goals .missions h5:hover{
+ .homeMissions h5:hover{
     color: #fff;
 }
 
-.top-goals .missions span{
+.homeMissions span{
     line-height: 1.7;
 }
 
-.top-goals h2{
+.homeTop-goals h2{
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
 }
 
-.bottom-goals{
+.homeBottom-goals{
     width: 70%;
     margin: 3rem auto 0 auto;
     display: grid;
@@ -237,28 +242,28 @@
     align-items: center;
 }
 
-.activity{
+.homeActivity{
     padding: 0.7rem 0.5rem;
     margin: 1rem;
 }
 
-.activity i{
+.homeActivity i{
     font-size: 38px;
     padding: 1.5rem;
     color: #EE3C3C;
     transition: color 0.3s ease;
 }
-.activity i:hover{
+.homeActivity i:hover{
     color: #f4f4f4;
 }
-.activity h4{
+.homeActivity h4{
     padding-left: 1.5rem;
     padding-bottom: 0.7rem;
     font-family: 'Lato', sans-serif;
 
 }
 
-.departements{
+.homeDepartements{
     width: 70%;
     margin: 4rem auto 0 auto;
     display: grid;
@@ -268,36 +273,36 @@
     text-align: center;
 }
 
-.departement{
+.homeDepartement{
     padding:  2rem;
     /* background: cornflowerblue; */
     margin: 1rem;
     transition: all 0.3s ease;
     border-bottom: #fff 4px solid;
 }
-.departement i{
+.homeDepartement i{
     font-size: 4rem;
     color: #133657;
     margin-bottom: 0.7rem;
     transition: color 0.3s ease;
 }
-.departement i:hover{
+.homeDepartement i:hover{
     color: #EE3C3C;
 }
 
-.departement h4{
+.homeDepartement h4{
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
     color: #333;
 }
 
-.departement span{
+.homeDepartement span{
     font-family: 'Yantramanav', sans-serif;
     font-size: 17px;
     padding: 0 0.7rem;
 }
 
-.departement:hover{
+.homeDepartement:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 3px 8px 5px;
     border-bottom: #133657 4px solid;
     border-bottom-left-radius: 7px;
@@ -305,13 +310,20 @@
 
 }
 
+/* ======================================================= ********** =====================================================================*/
+/* ======================================================= end home   =====================================================================*/
+/* ======================================================= ********** =====================================================================*/
+
+/* Responsivness */
+
 @media(max-width :1500px)
 {
-    .showcase,
-    .showcase::before{
+    /* Home style Responsive max-width: 1500px */
+    .homeShowcase,
+    .homeShowcase::before{
         height: 100vh;
     }
-    .company{
+    .homeCompany{
         width: 70%;
         /* margin: 28rem auto 5rem auto; */
         margin: 25rem auto 3rem auto;
@@ -321,176 +333,171 @@
         align-items: center;
     }
 
-    .company .img-owner{
+    .homeCompany .homeImg-owner{
         height: 100% ;
         width: 90%;
         text-align: center;
         margin : 0 auto ;
     }
 
-    .company .info-owner{
+    .homeCompany .homeInfo-owner{
         padding: 0 0.7rem 1rem 2rem;
         margin-left: 1rem;
     }
 
-    .boxes{
+    .homeBoxes{
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    /* Home style Responsive max-width: 1500px */
+
 }
-
-
-    
-    
-/*  */
-
 
 @media(max-width:1370px)
 {
-    .boxes{
+    /* Home style responsive max-width: 1370px ;*/
+    .homeBoxes{
         margin: 25rem auto 20rem auto;
-    }
+    }   
 }
 
-    
 
 
 @media(max-width:1024px) and (max-height:1366px){
 
-    .showcase,
-    .showcase::before{
+    .homeShowcase,
+    .homeShowcase::before{
         height: 80vh;
     }
-    .boxes,
-    .company,
-    .top-goals,
-    .bottom-goals,
-    .departements,
+    .homeBoxes,
+    .homeCompany,
+    .homeTop-goals,
+    .homeBottom-goals,
+    .homeDepartements,
     .footer-container{
         width: 90%;
     }
 
-    .boxes{
+    .homeBoxes{
         margin: 24rem auto 20rem auto;
     }
 
     
-    .box{
+    .homeBox{
         padding: 6rem 0;
     }
-    .box span{
+    .homeBox span{
         padding: 0 1.5rem;
     }
 
-    .bottom-goals{
+    .homeBottom-goals{
         grid-template-columns: repeat(4,1fr);
     }
 }
-/* @media( max-height :1024px)
-{
-    .boxes{
-        width: 95%;
-        margin: 17rem auto 0 auto;
-    }
-} */
 
 @media(max-width:768px)
 {
-
-    .showcase,
-    .showcase::before{
+    /* Home Style  */
+    .homeShowcase,
+    .homeShowcase::before{
         height: 80vh;
     }
     
-    .boxes{
+    .homeBoxes{
         width: 95%;
         margin: 15rem auto 0 auto;
     }
-    .box{
+    .homeBox{
         padding: 6rem 1rem;
     }
 
-    .company{
+    .homeCompany{
         flex-direction: column;
     }
-    .company .img-owner{
+    .homeCompany .homeImg-owner{
         width: 100%;
         border-radius: 0;
     }
-    .top-goals{
+    .homeTop-goals{
         grid-template-columns: repeat(2,1fr);
     }
-    .top-goals :first-child{
+    .homeTop-goals :first-child{
         margin-bottom: 0.7rem;
         grid-column: 1 / span 2;
     }
-    .bottom-goals{
+    .homeBottom-goals{
         grid-template-columns: repeat(3,1fr);
     }
-    .departements{
+    .homeDepartements{
         grid-template-columns: repeat(2,1fr);
     }
+
+    /* Home Style  */
     
 }
 
 @media (max-height :1024px)
 {
-    .boxes{
+    /* Home Style  */
+    .homeBoxes{
         width: 95%;
         margin: 10rem auto 0 auto;
     }
+    /* Home style  */
 }
+
 
 
 
 @media(max-width:500px)
 {
-    .showcase,
-    .showcase::before{
+    /* Home Style */
+    .homeShowcase,
+    .homeShowcase::before{
         height: 80vh;
     }
 
-    .titles h1{
+    .homeTitles h1{
         font-size: 2rem;
     }
 
-    .boxes{
+    .homeBoxes{
         flex-direction: column;
         
     }
 
-    .company{
+    .homeCompany{
         margin-top: 65rem;
     }
-    .company .img-owner{
+    .homeCompany .homeImg-owner{
         width: 100%;
         margin : 0;
     }
-    .company .info-owner{
+    .homeCompany .homeInfo-owner{
         width: 100%;
         padding: 0 0.7rem 1rem 2rem;
         margin-left: 0;
     }
-    .company .info-paragraph{
+    .homeCompany .homeInfo-paragraph{
         padding-right: 0;
     }
 
-    .top-goals :first-child{
+    .homeTop-goals :first-child{
         margin-bottom: 0.7rem;
         grid-column: 1 / span 1;
     }
-    .top-goals{
+    .homeTop-goals{
         grid-template-columns: repeat(1,1fr);
     }
 
-    .bottom-goals{
+    .homeBottom-goals{
         grid-template-columns: repeat(2,1fr);
     }
 
-    .departements{
+    .homeDepartements{
         grid-template-columns: repeat(1,1fr);
     }
 
@@ -512,22 +519,23 @@
 
 @media (max-height :812px)
 {
-    .showcase,
-    .showcase::before{
+    /* Home style */
+    .homeShowcase,
+    .homeShowcase::before{
         height: 100vh;
     }
 
-    .titles{
+    .homeTitles{
         padding-top: 15rem;
     }
-    .titles h4{
+    .homeTitles h4{
         font-size: 15px;
     }
-    .titles h1{
+    .homeTitles h1{
         font-size: 25px;
     }
 
-    .boxes{
+    .homeBoxes{
         width: 95%;
         margin: 3rem auto 0 auto;
     }
