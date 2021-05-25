@@ -198,7 +198,7 @@
     border-radius: 7px;
 }
 .card:nth-child(1) .card-img{
-    background: url(owner-1.jpg) no-repeat bottom center/cover;
+    background: url(Mot\ du\ president.PNG) no-repeat right center/cover;
 }
 .card:nth-child(2) .card-img{
     background: url(employe-1.jpg) no-repeat top center/cover;
@@ -248,7 +248,7 @@
     color: #fff;
 }
 
-.showcase{
+.showcaseAbout{
     background: #333;
     color: #fff;
     position: relative;
@@ -256,7 +256,7 @@
     height: 80vh;
    
 }
-.showcase::before{
+.showcaseAbout::before{
     content: '';
     background: url(service-img-3.jpg) no-repeat center center/cover;
     position: absolute;
@@ -268,7 +268,7 @@
     z-index: 2;
 }
 
-.showcase .showcase-content{
+.showcaseAbout .showcaseAbout-content{
     width: 65%;
     height: 60vh;
     margin: 0 auto;
@@ -279,18 +279,18 @@
     z-index: 2;
 }
 
-.showcase .showcase-content .little-content{
+.showcaseAbout .showcaseAbout-content .little-content{
     width: 60%;
     margin-bottom: 3rem;
 }
 
-.showcase .showcase-content .little-title{
+.showcaseAbout .showcaseAbout-content .little-title{
     color: #EE3C3C;
     font-family: 'Lato',sans-serif;
     margin-bottom: 0.7rem;
 }
 
-.showcase .showcase-content .big-title{
+.showcaseAbout .showcaseAbout-content .big-title{
     color: #fff;
     font-family: 'Lato',sans-serif;
     font-size: 40px;
@@ -298,35 +298,35 @@
     margin-bottom: 0.7rem;
 }
 
-.showcase .showcase-content .service-text{
+.showcaseAbout .showcaseAbout-content .service-text{
     color: #fff;
     font-family: 'Yantramanav', sans-serif;
 }
 
-.showcase .showcase-content .services{
+.showcaseAbout .showcaseAbout-content .services{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 0.5rem;
 }
 
-.showcase .showcase-content .services .box{
+.showcaseAbout .showcaseAbout-content .services .box{
     padding:  0.8rem;
 }
 
-.showcase .showcase-content .services .box .box-stats{
+.showcaseAbout .showcaseAbout-content .services .box .box-stats{
     font-family: 'Roboto',sans-serif;
     font-size: 40px;
     font-weight: bolder;
     
 }
 
-.showcase .showcase-content .services .box .box-title{
+.showcaseAbout .showcaseAbout-content .services .box .box-title{
     font-family: 'Roboto',sans-serif;
     font-size: 24px;
     margin: 0.5rem 0;
 }
 
-.showcase .showcase-content .services .box .box-text{
+.showcaseAbout .showcaseAbout-content .services .box .box-text{
     font-family: 'Yantramanav', sans-serif;
 }
 
@@ -363,12 +363,12 @@
         grid-template-columns: repeat(2,1fr);
     }
 
-    .showcase .showcase-content .little-content{
+    .showcaseAbout .showcaseAbout-content .little-content{
         width: 80%;
     }
 
-    .showcase,
-    .showcase::before{
+    .showcaseAbout,
+    .showcaseAbout::before{
         height: 100%;
     }
     
@@ -384,19 +384,19 @@
     .team{
         width: 90%;
     }
-    .showcase,
-    .showcase::before{
+    .showcaseAbout,
+    .showcaseAbout::before{
         height: 100%;
     }
-    .showcase .showcase-content{
+    .showcaseAbout .showcaseAbout-content{
         padding: 2rem 0;
         height: 100%;
     }
 
-    .showcase .showcase-content .little-content{
+    .showcaseAbout .showcaseAbout-content .little-content{
         width: 90%;
     }
-    .showcase .showcase-content .services{
+    .showcaseAbout .showcaseAbout-content .services{
         grid-template-columns: repeat(2,1fr);
     }
 }
@@ -441,26 +441,26 @@
         grid-template-columns: repeat(1,1fr);
     }
 
-    .showcase,
-    .showcase::before{
+    .showcaseAbout,
+    .showcaseAbout::before{
         height: 100%;
     }
-    .showcase .showcase-content{
+    .showcaseAbout .showcaseAbout-content{
         height: 100%;
     }
 
-    .showcase .showcase-content .little-content{
+    .showcaseAbout .showcaseAbout-content .little-content{
         width: 100%;
     }
-    .showcase .showcase-content .little-content .big-title{
+    .showcaseAbout .showcaseAbout-content .little-content .big-title{
         font-size: 20px;
     }
-    .showcase .showcase-content .services{
+    .showcaseAbout .showcaseAbout-content .services{
         grid-template-columns: repeat(1,1fr);
     }
 
-    .showcase .showcase-content .services .box .box-stats,
-    .showcase .showcase-content .services .box .box-title{
+    .showcaseAbout .showcaseAbout-content .services .box .box-stats,
+    .showcaseAbout .showcaseAbout-content .services .box .box-title{
         font-size: 20px;
     }
 
