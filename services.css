@@ -49,6 +49,9 @@
 .heal {
     background: url(jardinage.jpg) no-repeat center center/cover !important;
 }
+.healed {
+    background: url(service-img-2.jpg) no-repeat center center/cover !important;
+}
 
 .service-card .left-card-content:hover,
 .heal:hover{
