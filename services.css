@@ -44,10 +44,10 @@
     background: url(service-img.jpg) no-repeat center center/cover;
 }
 .service-card .left-card-content:nth-child(2) {
-    background: url(jardinage.jpg) no-repeat center center/cover;
+    background: url(service-img-3.jpg) no-repeat center center/cover;
 }
 .heal {
-    background: url(service-img-2.jpg) no-repeat center center/cover !important;
+    background: url(jardinage.jpg) no-repeat center center/cover !important;
 }
 
 .service-card .left-card-content:hover,
